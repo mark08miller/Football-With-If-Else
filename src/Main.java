@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int inputData = matchResult(1, 1, 2, 1);
+        int inputData = matchResult(2, 1, 2, 1);
         System.out.println(inputData);
     }
 
@@ -14,6 +14,7 @@ public class Main {
         } else if (result2 > result1 && bet2 > bet1) {
             return 1;
         } else if (result1 == result2 && bet1 == bet2) {
+
             return 1;
 
         } else {
